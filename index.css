@@ -30,6 +30,12 @@ p{
 img{
     width: 100%;
 }
+#tab-1-content,#tab-2-content,#tab-3-content{
+    display: none;
+}
+.show{
+    display: block !important;
+}
 .showcase{
     width: 100%;
     height: 93vh;
