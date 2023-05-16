@@ -7,6 +7,7 @@ function selectItem(e) {
 	removeBorder();
 	removeShow();
 	// Add border to current tab item
+	//when button click the border will appear on its related tab
 	this.classList.add('tab-border');
 	// Grab content item from DOM
 	const tabContentItem = document.querySelector(`#${this.id}-content`);
